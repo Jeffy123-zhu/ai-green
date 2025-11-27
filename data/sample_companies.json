@@ -1,0 +1,67 @@
+{
+  "companies": [
+    {
+      "id": "GTECH001",
+      "name": "GreenTech Solutions",
+      "sector": "Renewable Energy",
+      "revenue": 8500000,
+      "employees": 250,
+      "carbon_emissions": {
+        "total_co2_tons": 450,
+        "scope1": 150,
+        "scope2": 200,
+        "scope3": 100,
+        "trend": -0.12
+      },
+      "renewable_energy_percentage": 85,
+      "esg_scores": {
+        "environmental": 92,
+        "social": 85,
+        "governance": 88
+      },
+      "certifications": ["ISO14001", "B-Corp", "Carbon Neutral"]
+    },
+    {
+      "id": "SUST002",
+      "name": "Sustainable Agriculture Inc",
+      "sector": "Agriculture",
+      "revenue": 3200000,
+      "employees": 120,
+      "carbon_emissions": {
+        "total_co2_tons": 1200,
+        "scope1": 600,
+        "scope2": 300,
+        "scope3": 300,
+        "trend": -0.08
+      },
+      "renewable_energy_percentage": 45,
+      "esg_scores": {
+        "environmental": 78,
+        "social": 82,
+        "governance": 75
+      },
+      "certifications": ["Organic Certified", "Fair Trade"]
+    },
+    {
+      "id": "TRAD003",
+      "name": "Traditional Manufacturing Co",
+      "sector": "Manufacturing",
+      "revenue": 15000000,
+      "employees": 500,
+      "carbon_emissions": {
+        "total_co2_tons": 5500,
+        "scope1": 3000,
+        "scope2": 1500,
+        "scope3": 1000,
+        "trend": 0.03
+      },
+      "renewable_energy_percentage": 15,
+      "esg_scores": {
+        "environmental": 45,
+        "social": 60,
+        "governance": 70
+      },
+      "certifications": ["ISO9001"]
+    }
+  ]
+}

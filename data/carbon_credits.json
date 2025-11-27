@@ -1,0 +1,54 @@
+{
+  "carbon_credit_market": {
+    "current_price_per_ton": 45.50,
+    "price_trend_30d": 0.08,
+    "total_volume_traded": 125000000,
+    "average_daily_volume": 450000
+  },
+  "credit_types": [
+    {
+      "type": "Renewable Energy",
+      "price_premium": 1.15,
+      "verification_standard": "Gold Standard",
+      "available_tons": 50000
+    },
+    {
+      "type": "Reforestation",
+      "price_premium": 1.25,
+      "verification_standard": "VCS",
+      "available_tons": 35000
+    },
+    {
+      "type": "Energy Efficiency",
+      "price_premium": 1.0,
+      "verification_standard": "CDM",
+      "available_tons": 80000
+    },
+    {
+      "type": "Blue Carbon",
+      "price_premium": 1.35,
+      "verification_standard": "Plan Vivo",
+      "available_tons": 15000
+    }
+  ],
+  "offset_projects": [
+    {
+      "id": "PROJ001",
+      "name": "Amazon Rainforest Conservation",
+      "location": "Brazil",
+      "type": "REDD+",
+      "annual_reduction_tons": 250000,
+      "price_per_ton": 52.00,
+      "sdg_alignment": ["SDG13", "SDG15", "SDG17"]
+    },
+    {
+      "id": "PROJ002",
+      "name": "Wind Farm Development",
+      "location": "India",
+      "type": "Renewable Energy",
+      "annual_reduction_tons": 180000,
+      "price_per_ton": 38.00,
+      "sdg_alignment": ["SDG7", "SDG8", "SDG13"]
+    }
+  ]
+}

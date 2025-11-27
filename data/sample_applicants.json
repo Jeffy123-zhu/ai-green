@@ -1,0 +1,49 @@
+{
+  "applicants": [
+    {
+      "id": "APP001",
+      "name": "Maria Santos",
+      "type": "individual",
+      "location": "Rural Philippines",
+      "mobile_payment_history": {
+        "transaction_count": 45,
+        "average_amount": 250,
+        "consistency_score": 85
+      },
+      "green_activities": {
+        "has_solar_panels": true,
+        "solar_generation_kwh": 350,
+        "organic_farming": true,
+        "sustainable_practices": ["water_conservation", "composting", "crop_rotation"]
+      },
+      "social_data": {
+        "community_member": true,
+        "business_references": 4,
+        "years_in_community": 12
+      }
+    },
+    {
+      "id": "APP002",
+      "name": "Rural Farm Cooperative",
+      "type": "cooperative",
+      "location": "Kenya",
+      "mobile_payment_history": {
+        "transaction_count": 120,
+        "average_amount": 500,
+        "consistency_score": 90
+      },
+      "green_activities": {
+        "has_solar_panels": true,
+        "solar_generation_kwh": 800,
+        "organic_farming": true,
+        "sustainable_practices": ["drip_irrigation", "agroforestry", "renewable_energy"]
+      },
+      "social_data": {
+        "community_member": true,
+        "business_references": 8,
+        "years_in_community": 20,
+        "members_count": 45
+      }
+    }
+  ]
+}
